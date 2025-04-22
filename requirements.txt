@@ -1,5 +1,5 @@
 streamlit==1.29.0
-tensorflow==2.16.1
+tensorflow-cpu==2.16.1  # Lighter CPU-only version
+numpy==1.26.4  # Must match TensorFlow's requirement
 pillow==10.0.1
-numpy==1.24.4
-opencv-python==4.8.1.78
+opencv-python-headless==4.8.1.78  # Headless version for servers
